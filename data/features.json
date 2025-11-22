@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Giao hàng nhanh chóng",
+    "description": "Vận chuyển toàn quốc, đóng gói cẩn thận, giữ trọn chất lượng sản phẩm.",
+    "image": "/assets/images/choice-1.jpg",
+    "alt": "Giao hàng nhanh"
+  },
+  {
+    "id": 2,
+    "title": "Chất liệu cotton cao cấp",
+    "description": "Mềm mại, thấm hút tốt, an toàn. Cotton 100% tự nhiên, thân thiện với da.",
+    "image": "/assets/images/choice-2.jpg",
+    "alt": "Chất liệu cao cấp"
+  },
+  {
+    "id": 3,
+    "title": "Họa tiết dân gian cách tân",
+    "description": "Biểu tượng dân gian được thể hiện theo phong cách trẻ trung, hiện đại.",
+    "image": "/assets/images/choice-3.jpg",
+    "alt": "Họa tiết dân gian"
+  },
+  {
+    "id": 4,
+    "title": "Hỗ trợ tận tâm",
+    "description": "Tư vấn 24/7, hỗ trợ khách hàng trong suốt quá trình mua hàng.",
+    "image": "/assets/images/choice-4.jpg",
+    "alt": "Hỗ trợ tận tâm"
+  }
+]

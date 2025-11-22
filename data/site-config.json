@@ -1,0 +1,43 @@
+{
+  "site": {
+    "name": "Việt Chỉ",
+    "tagline": "Khăn Cotton Thêu Họa Tiết Dân Gian Cao Cấp",
+    "description": "Việt Chỉ - Thương hiệu khăn cotton thêu họa tiết dân gian cao cấp. Tinh hoa nghệ thuật Việt trên chất liệu cotton 100% tự nhiên, mềm mại, thấm hút tốt. Quà tặng văn hóa Việt ý nghĩa.",
+    "keywords": "khăn cotton thêu, khăn họa tiết dân gian, khăn thêu việt nam, quà tặng văn hóa việt, khăn cotton cao cấp, khăn tắm thêu, khăn gội thêu, khăn mặt thêu, họa tiết đông hồ, họa tiết trống đồng, quà tặng doanh nghiệp, việt chỉ",
+    "author": "Việt Chỉ",
+    "url": "https://vietchitowel.vercel.app/",
+    "logo": "/assets/images/logo.png",
+    "ogImage": "/assets/images/og-image.jpg",
+    "priceRange": "35.000đ - 260.000đ",
+    "phone": "+84-xxx-xxx-xxx",
+    "address": {
+      "country": "VN",
+      "city": "Việt Nam"
+    },
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/vietchitowel",
+      "instagram": "https://www.instagram.com/vietchitowel",
+      "tiktok": "#"
+    }
+  },
+  "navigation": [
+    { "name": "Trang chủ", "href": "#home" },
+    { "name": "Bộ sưu tập", "href": "#menu" },
+    { "name": "Ưu điểm", "href": "#coffee" },
+    { "name": "Câu chuyện", "href": "#about" },
+    { "name": "Danh mục", "href": "#gallery" },
+    { "name": "Cảm nhận", "href": "#customer" }
+  ],
+  "footerLinks": [
+    { "name": "Về chúng tôi", "href": "#about" },
+    { "name": "Sản phẩm", "href": "#menu" },
+    { "name": "Danh mục", "href": "#gallery" },
+    { "name": "Cảm nhận khách hàng", "href": "#customer" },
+    { "name": "Ưu điểm", "href": "#coffee" }
+  ],
+  "stats": [
+    { "number": "2500+", "label": "Khách Hàng Hài Lòng" },
+    { "number": "15", "label": "Mẫu Họa Tiết Đặc Sắc" },
+    { "number": "100%", "label": "Cotton Tự Nhiên" }
+  ]
+}

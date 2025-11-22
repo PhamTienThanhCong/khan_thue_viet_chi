@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><%= title || '500 - Server Error' %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center" style="padding: 100px 0;">
+                <h1>500</h1>
+                <h2><%= message || 'Có lỗi xảy ra trên server' %></h2>
+                <p>Chúng tôi đang khắc phục sự cố. Vui lòng thử lại sau.</p>
+                <a href="/" class="btn btn-primary">Về trang chủ</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

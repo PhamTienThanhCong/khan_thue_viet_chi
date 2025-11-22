@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Minh Thu",
+    "location": "Hà Nội",
+    "content": "Khăn mềm, thấm hút tốt và họa tiết thêu rất tinh tế. Tôi mua làm quà tặng bạn bè nước ngoài, ai cũng thích vì mang cảm giác rất Việt Nam.",
+    "rating": 5,
+    "image": "/assets/images/customer-1.jpg",
+    "alt": "customer"
+  },
+  {
+    "id": 2,
+    "name": "Văn Hùng",
+    "location": "TP. Hồ Chí Minh",
+    "content": "Chất lượng cotton rất tốt, an toàn cho da. Họa tiết dân gian được thêu rất đẹp, vừa truyền thống vừa hiện đại. Sẽ tiếp tục ủng hộ Việt Chỉ.",
+    "rating": 5,
+    "image": "/assets/images/customer-2.jpg",
+    "alt": "customer"
+  },
+  {
+    "id": 3,
+    "name": "Thanh Hương",
+    "location": "Đà Nẵng",
+    "content": "Mua combo làm quà tặng cho đối tác nước ngoài, họ rất ấn tượng với họa tiết văn hóa Việt. Đóng gói đẹp, giao hàng nhanh chóng.",
+    "rating": 5,
+    "image": "/assets/images/customer-3.jpg",
+    "alt": "customer"
+  }
+]
