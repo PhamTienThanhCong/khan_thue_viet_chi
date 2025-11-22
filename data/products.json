@@ -9,7 +9,7 @@
           "name": "Khăn tắm thêu \"Em Bé Ôm Tôm\"",
           "price": "100.000đ",
           "description": "Khăn tắm cotton cao cấp với họa tiết thêu tỉ mỉ, mềm mại và thấm hút tốt.",
-          "image": "/assets/images/menu.jpg",
+          "image": "/assets/images/products/towel-em-be-om-tom.jpg",
           "alt": "Khăn tắm Em Bé Ôm Tôm"
         },
         {
@@ -17,7 +17,7 @@
           "name": "Khăn gội thêu \"Em Bé Ôm Tôm\"",
           "price": "70.000đ",
           "description": "Khăn gội đầu với thiết kế họa tiết dân gian đặc sắc, an toàn cho da đầu.",
-          "image": "/assets/images/menu.jpg",
+          "image": "/assets/images/products/shampoo-towel-em-be-om-tom.jpg",
           "alt": "Khăn gội Em Bé Ôm Tôm"
         },
         {
@@ -25,7 +25,7 @@
           "name": "Khăn mặt thêu \"Em Bé Ôm Tôm\"",
           "price": "35.000đ",
           "description": "Khăn mặt nhỏ gọn với họa tiết truyền thống, phù hợp sử dụng hàng ngày.",
-          "image": "/assets/images/menu.jpg",
+          "image": "/assets/images/products/face-towel-em-be-om-tom.jpg",
           "alt": "Khăn mặt Em Bé Ôm Tôm"
         }
       ]
@@ -39,7 +39,7 @@
           "name": "Khăn tắm thêu \"Gà Trống Hoa Hồng\"",
           "price": "100.000đ",
           "description": "Họa tiết gà trống - biểu tượng may mắn trong văn hóa Việt, thêu tinh xảo.",
-          "image": "/assets/images/menu.jpg",
+          "image": "/assets/images/products/towel-ga-trong-hoa-hong.jpg",
           "alt": "Khăn tắm Gà Trống"
         },
         {
@@ -47,15 +47,23 @@
           "name": "Khăn gội thêu \"Gà Trống Hoa Hồng\"",
           "price": "70.000đ",
           "description": "Chất liệu cotton mềm mịn với họa tiết gà trống và hoa hồng đẹp mắt.",
-          "image": "/assets/images/menu.jpg",
+          "image": "/assets/images/products/shampoo-towel-ga-trong-hoa-hong.jpg",
           "alt": "Khăn gội Gà Trống"
         },
         {
           "id": 6,
+          "name": "Khăn mặt thêu \"Gà Trống Hoa Hồng\"",
+          "price": "260.000đ",
+          "description": "Bộ quà tặng cao cấp gồm 4 khăn gội với họa tiết tứ quý truyền thống.",
+          "image": "/assets/images/products/combo-tu-quy-binh.jpg",
+          "alt": "Combo Tứ Quý"
+        },
+        {
+          "id": 7,
           "name": "Combo \"Tứ Quý Bình\" - Bộ 4 Khăn Gội",
           "price": "260.000đ",
           "description": "Bộ quà tặng cao cấp gồm 4 khăn gội với họa tiết tứ quý truyền thống.",
-          "image": "/assets/images/menu.jpg",
+          "image": "/assets/images/products/combo-tu-quy-binh.jpg",
           "alt": "Combo Tứ Quý"
         }
       ]

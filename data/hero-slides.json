@@ -5,7 +5,7 @@
     "description": "Việt Chỉ mang đến những sản phẩm khăn cotton cao cấp, ứng dụng nghệ thuật họa tiết dân gian Việt Nam theo phong cách hiện đại. Mỗi sản phẩm là sự giao hòa giữa chất liệu mềm mại, độ hoàn thiện tỉ mỉ và thẩm mỹ văn hóa sâu sắc.",
     "buttonText": "Xem sản phẩm",
     "buttonLink": "#menu",
-    "backgroundImage": "/assets/images/slider-1.jpg"
+    "backgroundImage": "/assets/images/hero/hero-1.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "Các mẫu khăn của Việt Chỉ được phát triển dựa trên tinh thần giữ lại vẻ đẹp văn hóa truyền thống nhưng thể hiện bằng ngôn ngữ thiết kế đương đại. Từ họa tiết, màu sắc đến bố cục thêu đều được trau chuốt để phù hợp đời sống hiện nay.",
     "buttonText": "Khám phá",
     "buttonLink": "#menu",
-    "backgroundImage": "/assets/images/slider-2.jpg"
+    "backgroundImage": "/assets/images/hero/hero-2.jpg"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "description": "Việt Chỉ cam kết mang đến những sản phẩm thẩm mỹ, tinh tế và phù hợp với nhiều mục đích: sử dụng cá nhân, quà tặng, trang trí không gian sống hoặc làm quà doanh nghiệp.",
     "buttonText": "Tìm hiểu thêm",
     "buttonLink": "#coffee",
-    "backgroundImage": "/assets/images/slider-3.jpg"
+    "backgroundImage": "/assets/images/hero/hero-3.jpg"
   }
 ]
