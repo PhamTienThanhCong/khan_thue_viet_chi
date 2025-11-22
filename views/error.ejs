@@ -1,22 +1,278 @@
 <!doctype html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title><%= title || '500 - Server Error' %></title>
+    
+    <!--====== Title ======-->
+    <title><%= title || '500 - Lỗi Máy Chủ | Việt Chỉ' %></title>
+    
+    <!--====== Meta Description ======-->
+    <meta name="description" content="Có lỗi xảy ra trên hệ thống. Chúng tôi đang khắc phục. Quay lại Việt Chỉ sau để khám phá khăn cotton thêu họa tiết dân gian.">
+    
+    <!--====== Meta Keywords ======-->
+    <meta name="keywords" content="việt chỉ, lỗi máy chủ, 500, bảo trì">
+    
+    <!--====== Meta Author ======-->
+    <meta name="author" content="Việt Chỉ">
+    
+    <!--====== Meta Robots ======-->
+    <meta name="robots" content="noindex, follow">
+    
+    <!--====== Viewport ======-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="/assets/images/logo.png" type="image/png">
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="/assets/css/animate.css">
+        
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="/assets/css/slick.css">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="/assets/css/LineIcons.css">
+        
+    <!--====== Bootstrap CSS ======-->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="/assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
     <link rel="stylesheet" href="/assets/css/style.css">
+    
 </head>
+
 <body>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center" style="padding: 100px 0;">
-                <h1>500</h1>
-                <h2><%= message || 'Có lỗi xảy ra trên server' %></h2>
-                <p>Chúng tôi đang khắc phục sự cố. Vui lòng thử lại sau.</p>
-                <a href="/" class="btn btn-primary">Về trang chủ</a>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!--====== PRELOADER PART START ======-->
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== HEADER PART START ======-->
+    <section class="header_area">
+        <div class="header_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="/">
+                                <img src="/assets/images/logo.png" alt="Logo"> 
+                                <h4 style="color: #E54E1B; margin-left: 10px;" class="title d-inline">Việt Chỉ</h4>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/#home">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/#menu">Bộ sưu tập</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/#coffee">Ưu điểm</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/#about">Câu chuyện</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/#gallery">Danh mục</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/#customer">Cảm nhận</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header navbar -->
+    </section>
+    <!--====== HEADER PART ENDS ======-->
+    
+    <!--====== ERROR 500 PART START ======-->
+    <section class="error_area pt-120 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section_title text-center pb-30">
+                        <h1 class="error_number" style="font-size: 150px; color: #E54E1B; margin-bottom: 30px;">500</h1>
+                        <h4 class="title"><%= message || 'Có Lỗi Xảy Ra Trên Máy Chủ' %></h4>
+                        <span class="line">
+                            <span class="box"></span>
+                        </span>
+                        <p class="mt-3">Chúng tôi đang gặp một số sự cố kỹ thuật tạm thời.</p>
+                        <p>Đội ngũ kỹ thuật đang khắc phục nhanh chóng. Vui lòng quay lại sau ít phút.</p>
+                        <div class="mt-50">
+                            <a href="/" class="main-btn">Về Trang Chủ</a>
+                            <a href="javascript:window.location.reload()" class="main-btn" style="margin-left: 15px; background: transparent; border: 2px solid #E54E1B; color: #E54E1B;">Thử Lại</a>
+                        </div>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            
+            <!-- Maintenance Info -->
+            <div class="row justify-content-center mt-80">
+                <div class="col-lg-10">
+                    <div class="single_coffee text-center mt-30" style="padding: 50px; background: #f8f9fa; border-radius: 10px;">
+                        <div class="coffee_content">
+                            <h5 class="coffee_title" style="color: #E54E1B; margin-bottom: 20px;">Đang Bảo Trì Hệ Thống</h5>
+                            <p style="font-size: 16px; line-height: 1.8;">Việt Chỉ đang nâng cấp hệ thống để mang đến trải nghiệm tốt hơn cho quý khách. <br>
+                            Trong thời gian này, một số tính năng có thể tạm thời không khả dụng. <br>
+                            Chúng tôi sẽ hoàn tất việc bảo trì trong thời gian sớm nhất.</p>
+                            
+                            <div class="row justify-content-center mt-40">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="maintenance-item">
+                                        <i class="lni lni-cog" style="font-size: 30px; color: #E54E1B; margin-bottom: 15px;"></i>
+                                        <h6>Nâng Cấp Hệ Thống</h6>
+                                        <p>Cải thiện hiệu suất và bảo mật</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="maintenance-item">
+                                        <i class="lni lni-timer" style="font-size: 30px; color: #E54E1B; margin-bottom: 15px;"></i>
+                                        <h6>Thời Gian Dự Kiến</h6>
+                                        <p>15-30 phút</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="maintenance-item">
+                                        <i class="lni lni-phone" style="font-size: 30px; color: #E54E1B; margin-bottom: 15px;"></i>
+                                        <h6>Liên Hệ Hỗ Trợ</h6>
+                                        <p>Hotline: 1900-xxxx</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- container -->
+    </section>
+    <!--====== ERROR 500 PART ENDS ======-->
+    
+    <!--====== FOOTER PART START ======-->
+   <section id="footer" class="footer_area">
+        <div class="footer_widget pt-80 pb-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 order-md-1 order-lg-1">
+                        <div class="footer_about mt-45">
+                            <h4 class="footer_title">Việt Chỉ</h4>
+                            <p>Việt Chỉ – thương hiệu khăn cotton thêu họa tiết dân gian, nơi các giá trị văn hóa Việt được tái hiện theo phong cách thanh lịch và đương đại.</p>
+                            <ul class="social">
+                                <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
+                                <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
+                                <li><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+<path d="M12.4381 2.01667C13.5298 2 14.6131 2.00833 15.6964 2C15.7631 3.27498 16.2214 4.57497 17.1548 5.47496C18.0881 6.39995 19.4047 6.82494 20.688 6.9666V10.3249C19.488 10.2832 18.2797 10.0332 17.1881 9.51656C16.7131 9.29991 16.2714 9.02491 15.8381 8.74157C15.8298 11.1749 15.8464 13.6082 15.8214 16.0332C15.7548 17.1998 15.3714 18.3581 14.6964 19.3164C13.6048 20.9164 11.7131 21.9581 9.7715 21.9914C8.57986 22.0581 7.38819 21.7331 6.37154 21.1331C4.68823 20.1414 3.50492 18.3248 3.32992 16.3748C3.31325 15.9582 3.30492 15.5415 3.32158 15.1332C3.47158 13.5499 4.25491 12.0332 5.47156 10.9999C6.85488 9.7999 8.78817 9.22491 10.5965 9.56656C10.6131 10.7999 10.5631 12.0332 10.5631 13.2665C9.73816 12.9999 8.77151 13.0749 8.04652 13.5749C7.52153 13.9165 7.12154 14.4415 6.91319 15.0332C6.7382 15.4582 6.7882 15.9248 6.79654 16.3748C6.99654 17.7415 8.31318 18.8914 9.71316 18.7665C10.6465 18.7581 11.5381 18.2165 12.0215 17.4248C12.1798 17.1498 12.3548 16.8665 12.3631 16.5415C12.4465 15.0498 12.4131 13.5665 12.4215 12.0749C12.4298 8.71657 12.4131 5.36661 12.4381 2.01667Z" fill="#eee"/>
+</svg></a></li>
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-4 order-md-3 order-lg-2">
+                        <div class="footer_link_wrapper d-flex flex-wrap">
+                            <div class="footer_link mt-45">
+                                <h4 class="footer_title">Menu Chính</h4>
+                                <ul>
+                                    <li><a href="/#about">Về chúng tôi</a></li>
+                                    <li><a href="/#menu">Sản phẩm</a></li>
+                                    <li><a href="/#gallery">Danh mục</a></li>
+                                    <li><a href="/#customer">Cảm nhận khách hàng</a></li>
+                                    <li><a href="/#coffee">Ưu điểm</a></li>
+                                </ul>
+                            </div> <!-- footer link -->
+                        </div> <!-- footer link wrapper -->
+                    </div>
+                    <div class="col-lg-4 col-md-4 order-md-2 order-lg-3">
+                        <div class="footer_instagram mt-45">
+                            <h4 class="footer_title">Sản Phẩm Nổi Bật</h4>
+                            <div class="instagram_image">
+                                <a href="/#menu"><img src="/assets/images/instagram-1.jpg" alt="Khăn Em Bé Ôm Tôm"></a>
+                                <a href="/#menu"><img src="/assets/images/instagram-2.jpg" alt="Khăn Gà Trống"></a>
+                                <a href="/#menu"><img src="/assets/images/instagram-3.jpg" alt="Combo Tứ Quý"></a>
+                                <a href="/#menu"><img src="/assets/images/instagram-4.jpg" alt="Khăn Hoa Hồng"></a>
+                                <a href="/#menu"><img src="/assets/images/instagram-4.jpg" alt="Khăn cotton"></a>
+                                <a href="/#menu"><img src="/assets/images/instagram-3.jpg" alt="Họa tiết dân gian"></a>
+                                <a href="/#menu"><img src="/assets/images/instagram-2.jpg" alt="Thêu tay"></a>
+                                <a href="/#menu"><img src="/assets/images/instagram-1.jpg" alt="Cotton cao cấp"></a>
+                            </div>
+                        </div> <!-- footer instagram -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- contact form -->
+        </div> <!-- footer Widget -->
+        
+        <div class="footer_copyright">
+            <div class="container">
+                <div class="copyright text-center">
+                    <p>© 2024 Việt Chỉ. Thiết kế bởi <a href="#" rel="nofollow">Vietchitowel</a></p>
+                </div> <!-- copyright -->
+            </div> <!-- contact form -->
+        </div> <!-- footer copyright -->
+        
+        <div class="footer_shape">
+            <img src="/assets/images/footer_shape.png" alt="footer shape">
+        </div> <!-- footer shape -->
+    </section>
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    <!--====== Jquery js ======-->
+    <script src="/assets/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="/assets/js/slick.min.js"></script>
+    
+    <!--====== Ajax Contact js ======-->
+    <script src="/assets/js/ajax-contact.js"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="/assets/js/jquery.easing.min.js"></script>
+    <script src="/assets/js/scrolling-nav.js"></script>
+    
+    <!--====== WOW js ======-->
+    <script src="/assets/js/wow.min.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="/assets/js/main.js"></script>
+    
 </body>
+
 </html>

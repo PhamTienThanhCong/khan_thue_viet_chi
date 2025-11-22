@@ -19,8 +19,8 @@ Website thương hiệu khăn cotton thêu họa tiết dân gian Việt Nam đ�
 │   └── assets/              # Thư mục assets gốc
 ├── views/                    # EJS templates
 │   ├── index.ejs            # Trang chủ
-│   ├── 404.ejs              # Trang 404
-│   └── error.ejs            # Trang lỗi server
+│   ├── 404.ejs              # Trang 404 (full layout)
+│   └── error.ejs            # Trang lỗi server (full layout)
 ├── routes/                   # Route handlers
 │   └── index.js             # Main route
 └── data/                     # JSON data files
@@ -32,6 +32,20 @@ Website thương hiệu khăn cotton thêu họa tiết dân gian Việt Nam đ�
     ├── categories.json      # Danh mục sản phẩm
     └── testimonials.json    # Đánh giá khách hàng
 ```
+
+## 🎨 Tính năng Error Pages
+
+### Trang 404 (Không tìm thấy)
+- **Full layout** với header, footer giống trang chủ
+- **Quick navigation** với các links quan trọng
+- **Responsive design** tương thích mobile
+- **SEO friendly** với meta tags phù hợp
+
+### Trang 500 (Lỗi server)
+- **Professional layout** với thông tin bảo trì chi tiết  
+- **Maintenance status** hiển thị thời gian dự kiến
+- **Contact support** với thông tin hotline
+- **User-friendly** hướng dẫn người dùng rõ ràng
 
 ## 🛠️ Hướng dẫn chạy dự án
 
