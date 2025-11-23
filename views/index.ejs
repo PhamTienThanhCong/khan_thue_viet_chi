@@ -106,6 +106,12 @@
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="/assets/css/style.css">
     
+    <!--====== Lightbox CSS ======-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    
+    <!--====== Lightbox Custom CSS ======-->
+    <link rel="stylesheet" href="/assets/css/lightbox-custom.css">
+    
 </head>
 
 <body>
@@ -206,7 +212,9 @@
                         <% productLine.products.forEach((product, index) => { %>
                         <div class="single_coffee_menu mt-30 d-flex align-items-center wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="<%= 0.2 + (index * 0.3) %>s">
                             <div class="coffee_menu_image">
-                                <img w="131px" h="131px" src="<%= product.image %>" alt="<%= product.alt %>">
+                                <a href="<%= product.image %>" data-lightbox="products" data-title="<%= product.name %> - <%= product.description %>">
+                                    <img w="131px" h="131px" src="<%= product.image %>" alt="<%= product.alt %>" style="cursor: pointer;">
+                                </a>
                             </div>
                             <div class="coffee_menu_content media-body">
                                 <h4 class="coffee_name"><%= product.name %><span class="price"><%= product.price %></span></h4>
@@ -306,7 +314,7 @@
     <!--====== ABOUT PART ENDS ======-->
     
     <!--====== COUNTER PART START ======-->
-    <section id="counter" class="counter_area pt-50 pb-95 bg_cover text-center" style="background-image: url(/assets/images/counter_bg.jpg)">
+    <section id="counter" class="counter_area pt-50 pb-95 bg_cover text-center" style="background-image: url(/assets/images/counter_bg.png)">
         <div class="container">
             <div class="row">
                 <% stats.forEach((stat, index) => { %>
@@ -431,14 +439,13 @@
                         <div class="footer_instagram mt-45">
                             <h4 class="footer_title">Sản Phẩm Nổi Bật</h4>
                             <div class="instagram_image">
-                                <a href="#"><img src="/assets/images/instagram-1.jpg" alt="Khăn Em Bé Ôm Tôm"></a>
-                                <a href="#"><img src="/assets/images/instagram-2.jpg" alt="Khăn Gà Trống"></a>
-                                <a href="#"><img src="/assets/images/instagram-3.jpg" alt="Combo Tứ Quý"></a>
-                                <a href="#"><img src="/assets/images/instagram-4.jpg" alt="Khăn Hoa Hồng"></a>
-                                <a href="#"><img src="/assets/images/instagram-4.jpg" alt="Khăn cotton"></a>
-                                <a href="#"><img src="/assets/images/instagram-3.jpg" alt="Họa tiết dân gian"></a>
-                                <a href="#"><img src="/assets/images/instagram-2.jpg" alt="Thêu tay"></a>
-                                <a href="#"><img src="/assets/images/instagram-1.jpg" alt="Cotton cao cấp"></a>
+                                <a href="/assets/images/products/towel-em-be-om-tom.jpg" data-lightbox="products" data-title="Khăn Em Bé Ôm Tôm"><img src="/assets/images/products/towel-em-be-om-tom.jpg" alt="Khăn Em Bé Ôm Tôm" style="cursor: pointer;"></a>
+                                <a href="/assets/images/products/towel-ga-trong-hoa-hong.jpg" data-lightbox="products" data-title="Khăn Gà Trống Hoa Hồng"><img src="/assets/images/products/towel-ga-trong-hoa-hong.jpg" alt="Khăn Gà Trống Hoa Hồng" style="cursor: pointer;"></a>
+                                <a href="/assets/images/products/combo-tu-quy-binh.jpg" data-lightbox="products" data-title="Combo Tứ Quý Bình"><img src="/assets/images/products/combo-tu-quy-binh.jpg" alt="Combo Tứ Quý Bình" style="cursor: pointer;"></a>
+                                <a href="/assets/images/products/face-towel-em-be-om-tom.jpg" data-lightbox="products" data-title="Khăn Mặt Em Bé Ôm Tôm"><img src="/assets/images/products/face-towel-em-be-om-tom.jpg" alt="Khăn Mặt Em Bé Ôm Tôm" style="cursor: pointer;"></a>
+                                <a href="/assets/images/products/face-towel-ga-trong-hoa-hong.jpg" data-lightbox="products" data-title="Khăn Mặt Gà Trống Hoa Hồng"><img src="/assets/images/products/face-towel-ga-trong-hoa-hong.jpg" alt="Khăn Mặt Gà Trống Hoa Hồng" style="cursor: pointer;"></a>
+                                <a href="/assets/images/products/shampoo-towel-em-be-om-tom.jpg" data-lightbox="products" data-title="Khăn Gội Em Bé Ôm Tôm"><img src="/assets/images/products/shampoo-towel-em-be-om-tom.jpg" alt="Khăn Gội Em Bé Ôm Tôm" style="cursor: pointer;"></a>
+                                <a href="/assets/images/products/shampoo-towel-ga-trong-hoa-hong.jpg" data-lightbox="products" data-title="Khăn Gội Gà Trống Hoa Hồng"><img src="/assets/images/products/shampoo-towel-ga-trong-hoa-hong.jpg" alt="Khăn Gội Gà Trống Hoa Hồng" style="cursor: pointer;"></a>
                             </div>
                         </div> <!-- footer instagram -->
                     </div>
@@ -484,6 +491,12 @@
     
     <!--====== Main js ======-->
     <script src="/assets/js/main.js"></script>
+    
+    <!--====== Lightbox js ======-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    
+    <!--====== Lightbox Config js ======-->
+    <script src="/assets/js/lightbox-config.js"></script>
     
 </body>
 

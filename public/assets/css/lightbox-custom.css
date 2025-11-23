@@ -1,0 +1,81 @@
+/* Lightbox Custom Styles */
+
+/* Custom lightbox styles */
+.lightbox .lb-image {
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox .lb-container .lb-nav a.lb-prev,
+.lightbox .lb-container .lb-nav a.lb-next {
+    background: rgba(26, 35, 126, 0.8);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+}
+
+.lightbox .lb-container .lb-nav a.lb-prev:hover,
+.lightbox .lb-container .lb-nav a.lb-next:hover {
+    background: rgba(26, 35, 126, 1);
+}
+
+.lightbox .lb-container .lb-close {
+    background: rgba(26, 35, 126, 0.8);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    top: 15px;
+}
+
+.lightbox .lb-container .lb-close:hover {
+    background: rgba(26, 35, 126, 1);
+}
+
+.lightbox .lb-container .lb-details .lb-caption {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.lightbox .lb-container .lb-details .lb-number {
+    color: #ccc;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .lightbox .lb-container .lb-nav a.lb-prev,
+    .lightbox .lb-container .lb-nav a.lb-next {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+    }
+    
+    .lightbox .lb-container .lb-close {
+        width: 35px;
+        height: 35px;
+        right: 10px;
+        top: 10px;
+    }
+}
+
+/* Animation cho lightbox */
+.lightbox .lb-container {
+    animation: lightboxFadeIn 0.3s ease-in-out;
+}
+
+@keyframes lightboxFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

@@ -436,7 +436,7 @@
     
     <!--====== COUNTER PART START ======-->
 
-    <section id="counter" class="counter_area pt-50 pb-95 bg_cover text-center" style="background-image: url(assets/images/counter_bg.jpg)">
+    <section id="counter" class="counter_area pt-50 pb-95 bg_cover text-center" style="background-image: url(assets/images/counter_bg.png)">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
