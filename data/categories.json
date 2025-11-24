@@ -2,28 +2,28 @@
   {
     "id": 1,
     "title": "Khăn Mặt",
-    "description": "Khăn mặt cotton mềm mại với họa tiết thêu dân gian tinh tế. Kích thước nhỏ gọn, phù hợp sử dụng hằng ngày. Giá từ 35.000đ.",
+    "description": "Khăn mặt cotton mềm mại với họa tiết thêu dân gian tinh tế. Kích thước nhỏ gọn, phù hợp sử dụng hằng ngày. Giá từ 55.000đ.",
     "image": "/assets/images/categories/face-towel.jpg",
     "alt": "Khăn mặt"
   },
   {
     "id": 2,
     "title": "Khăn Gội",
-    "description": "Khăn gội đầu thấm hút tốt, an toàn cho da đầu. Họa tiết dân gian được cách tân hiện đại, phù hợp mọi lứa tuổi. Giá từ 70.000đ.",
+    "description": "Khăn gội đầu thấm hút tốt, an toàn cho da đầu. Họa tiết dân gian được cách tân hiện đại, phù hợp mọi lứa tuổi. Giá từ 85.000đ.",
     "image": "/assets/images/categories/shampoo-towel.jpg",
     "alt": "Khăn gội"
   },
   {
     "id": 3,
     "title": "Khăn Tắm",
-    "description": "Khăn tắm cao cấp với chất liệu cotton 100% tự nhiên. Họa tiết thêu tỉ mỉ, bền màu theo thời gian. Giá từ 100.000đ.",
+    "description": "Khăn tắm cao cấp với chất liệu cotton 100% tự nhiên. Họa tiết thêu tỉ mỉ, bền màu theo thời gian. Giá từ 130.000đ.",
     "image": "/assets/images/categories/bath-towel.jpg",
     "alt": "Khăn tắm"
   },
   {
     "id": 4,
     "title": "Combo Quà Tặng",
-    "description": "Bộ combo cao cấp gồm nhiều loại khăn với họa tiết tứ quý truyền thống. Phù hợp làm quà tặng doanh nghiệp và cá nhân. Giá từ 260.000đ.",
+    "description": "Bộ combo cao cấp gồm nhiều loại khăn với họa tiết tứ quý truyền thống. Phù hợp làm quà tặng doanh nghiệp và cá nhân. Giá từ 380.000đ.",
     "image": "/assets/images/categories/gift-combo.jpg",
     "alt": "Combo quà tặng"
   }
